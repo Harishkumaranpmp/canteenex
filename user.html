@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Interface</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <div class="canteen-selection">
+            <h1>Welcome to Our Canteens</h1>
+            <div class="canteens">
+                <button class="canteen" id="marina-house">
+                    <img src="marina.jpg" alt="Marina House">
+                    <h2>Marina House</h2>
+                </button>
+                <button class="canteen" id="tanjore-house">
+                    <img src="tanjore.jpg" alt="Tanjore House">
+                    <h2>Tanjore House</h2>
+                </button>
+                <button class="canteen" id="himalayan-house">
+                    <img src="himalayan.jpg" alt="Himalayan House">
+                    <h2>Himalayan House</h2>
+                </button>
+            </div>
+        </div>
+        <head>
+            <style>
+                @media (max-width: 600px) {
+                    img {
+                        width: 100%; /* Full width on smaller screens */
+                    }
+                }
+        
+                @media (min-width: 601px) {
+                    img {
+                        width: 70%; /* Smaller width for larger screens */
+                    }
+                }
+            </style>
+        </head>
+    </div>
+</body>
+</html>
